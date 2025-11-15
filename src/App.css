@@ -1,0 +1,212 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+.dark-theme {
+  --bg-color: #000000;
+  --text-color: #ffffff !important;
+}
+.nameinfodark{
+  --colornameinfo:#ffffff;
+
+}
+.nameinfolight{
+  --colornameinfo:#1C2024;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+
+
+
+
+body{
+  
+  padding-top: 80px; 
+}
+.navbar{
+  border: 1px solid rgba(0,0,0,0.15);
+  padding:10px;
+  border-radius: 25px;
+  background-color: #FFFFFF 0.5A;
+  width:900px;
+ box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+
+
+
+ 
+}
+.navbar_links{
+  perspective: 600px;
+}
+.navbar_links a{
+  text-decoration: none;
+  display: inline-block;
+  transition:   transform 0.2s ease, background-color 0.3s ease;
+  
+  
+}
+
+.navbar_links a:hover{
+background-color: gainsboro;
+border-radius: 25px;
+transform: rotateX(10deg) translateZ(-30px);
+ 
+}
+.active{
+color: #FFB300;
+
+  
+
+}
+.inactive{
+  color:#424242;
+}
+.fa-github {
+  color: #424242;
+}
+.fa-linkedin {
+  color: #424242;
+}
+.sahil{
+  border-radius: 50%;
+}
+.name{
+  font-size:60px;
+  font-weight: bolder;
+  color:var(--colornameinfo)
+}
+.info{
+color:#1C2024;
+margin:8px 0px 0px;
+color:var(--colornameinfo)
+}
+
+
+.touch{
+
+  background-color:#171717;
+  color: white;
+  height: 36px;
+  border-radius: 10px;
+  width:130px;
+  padding:8px -5px;
+  border:1px solid black;
+}
+.projectnames{
+  width:600px;
+  height:40px;
+  border: 1px solid rgba(0,0,0,0.15);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+margin: 0 auto;  
+border-radius: 10px;
+background-color: #FFFFFF;
+}
+
+
+.fullstackbtn{
+  
+border:none;
+  background-color: white;
+}
+.fullstackbtndark{
+  border:none;
+  background-color: black;
+  color:#ffffff;
+}
+.fullstackactive{
+   width:200px;
+  height:30px;
+  border: 1px solid rgba(0,0,0,0.15);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-radius: 10px;
+}
+.ai-basedbtn{
+  border:none;
+  background-color: white;
+}
+.ai-basedactive{
+ width:200px;
+  height:30px;
+  border: 1px solid rgba(0,0,0,0.15);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+
+border-radius: 10px;
+}
+.ai-based button{
+border:none;
+  background-color: white;
+}
+.project-card{
+  
+
+  width:280px;
+  border-top: 1px solid rgba(0,0,0,0.15);
+  border-bottom:1px solid rgba(0,0,0,0.15);
+  border-left:1px solid rgba(0,0,0,0.15);
+  border-radius: 10px;
+  background-color: #ffffff;
+  
+}
+.projects{
+
+    width: 640px;       
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;            
+  justify-content: center
+}
+.project-name{
+  color: #000000;
+}
+.project-description{
+  color: #000000;
+}
+.project-btn{
+  height:25px;
+  width:70px;
+  font-size: small;
+   background-color: #171717;
+  color: white;
+  text-decoration: none;
+border-radius: 2px;
+padding:1px;
+}
+.project-btn a{
+text-decoration: none;
+color:white;
+}
+.githublink{
+  color:white;
+}
+.logo{
+  height:30px;
+width:30px;
+}
+.mern{
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+}
+.skills{
+  width:600px;
+}
+.education{
+    height:50px;
+width:50px;
+}
+.college{
+  font-size: 13px;;
+}
