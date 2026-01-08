@@ -23,6 +23,20 @@ return(
             <div className="mx-auto projects d-flex gap-4  ">
  {isfullstack==="fullstack" && (
              <>
+<Project description="A project where players can connect each other by simple chat in a single room.This project is based upon the metaspace and each player can get other player's positions or movements in realtime "
+name="metaverse"
+logo="https://i.pinimg.com/originals/53/ff/a4/53ffa4da275525f318dbcab1c0b854af.jpg"
+github="https://github.com/sahilsheikh230/metaverse-frontend"
+technologies={["React","Express","Socket.io","Phaser","Tilemaps"]}
+url="https://whimsical-creponne-95102b.netlify.app/"
+theme={theme}></Project>
+
+
+
+
+
+
+
 <Project
  description="A full-stack Zerodha Clone replicating key trading platform features — includes secure authentication, stock data visualization, and responsive UI built using React, Node.js, Express, and MongoDB."
   name="Zerodha Clone" 
