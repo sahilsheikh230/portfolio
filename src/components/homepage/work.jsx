@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "./project";
 import {useState} from "react";
+import logo from "/connect.png"
 export default function Work({theme}){
 let [isfullstack,setfullstack]=useState("fullstack")
 
@@ -23,6 +24,22 @@ return(
             <div className="mx-auto projects d-flex gap-4  ">
  {isfullstack==="fullstack" && (
              <>
+
+<Project
+description="CONNECT is a real-time video calling and chat web application. It allows users to create or join meeting rooms, make peer-to-peer video calls, and chat in real time."
+name="Connect"
+logo={logo}
+github="https://github.com/sahilsheikh230/connect-frontend"
+url="http://connect1045.netlify.app"
+technologies={["webRTC","socket.io","React","Express","jwt","bcrypt","CORS"]}
+theme={theme}
+
+>
+
+</Project>
+
+
+
 <Project description="A project where players can connect each other by simple chat in a single room.This project is based upon the metaspace and each player can get other player's positions or movements in realtime "
 name="metaverse"
 logo="https://i.pinimg.com/originals/53/ff/a4/53ffa4da275525f318dbcab1c0b854af.jpg"
